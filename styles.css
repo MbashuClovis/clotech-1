@@ -1,0 +1,47 @@
+* {
+    background-color: orange;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25rem;
+}
+
+.search {
+    text-align: center;
+    padding: 1.4rem 1.6rem;
+}
+
+p {
+    text-align: center;
+}
+
+.btn-1 {
+    border-radius: 5rem;
+    background-color: red;
+    border: none;
+    padding: 1.2rem 1rem;
+    width: 10rem;
+    color: white;
+}
+
+.bar {
+    width: 60rem;
+    padding: 1.2rem 1rem;
+    background-color: white;
+    border: none;
+    margin-right: 2rem;
+}
+
+@media (max-width: 77em) {
+
+    h1,
+    p {
+        text-align: center;
+    }
+    .btn-1 {
+        text-align: center;
+    }
+
+}
